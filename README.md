@@ -1,6 +1,6 @@
 # CNN projects
 Convolutional Neural Networks
-
+## Lilit Azizyan
 This repository contains a Convolutional Neural Network (CNN) project developed using TensorFlow and Keras. The core model is based on the ResNet architecture and is trained on the CIFAR10 dataset for image classification tasks.
 
 All development was done in **Google Colab**, making it easy to reproduce and experiment in a cloud-based environment.
