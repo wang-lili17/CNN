@@ -20,6 +20,6 @@ from tensorflow.keras.datasets import cifar10
 - Customizable CNN architecture
 - Training and evaluation scripts
 - Accuracy & loss visualization
-- Model checkpointing and saving
+- Model saving
 
 
