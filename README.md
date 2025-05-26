@@ -1,10 +1,14 @@
 # CNN projects
-Convolutional Neural Networks
 ## Lilit Azizyan
 This repository contains Convolutional Neural Network (CNN) projects developed using TensorFlow, Keras and Pytorch. 
+All developments were done in **Google Colab**, making it easy to reproduce and experiment in a cloud-based environment.
+# The latest projects are
+### CNN_YOLOv5
+It is a friendly script that demonstrates how to run the pre-trained YOLOv5s model on a set of local images using PyTorch Hub and visualize the results directly in Google Colab.
+### CNN_HW3_FINAL
+This script converts Pascal VOC 2012 annotations to YOLO format, splits the dataset into training and validation sets, creates the data.yaml file, and trains the YOLOv8n model for 30 epochs (due to the limited resources of using Colab's GPU). After training, it automatically backs up the best and last model weights to Google Drive.
 
-All development was done in **Google Colab**, making it easy to reproduce and experiment in a cloud-based environment.
-
+In the repository you will also see 2 videos one is 2103099_detected.mp4 and the other is 2103_detected.mp4. These videos showcase detection results using the trained YOLOv8n model. The differences between them are explained in the corresponding text cells within the Colab notebook.
 ## Datasets that were used 
 
 [**CIFAR-10** ](https://www.cs.toronto.edu/~kriz/cifar.html)
