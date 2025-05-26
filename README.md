@@ -7,6 +7,8 @@ It is a friendly script that demonstrates how to run the pre-trained YOLOv5s mod
 This script converts Pascal VOC 2012 annotations to YOLO format, splits the dataset into training and validation sets, creates the data.yaml file, and trains the YOLOv8n model for 30 epochs (due to the limited resources of using Colab's GPU). After training, it automatically backs up the best and last model weights to Google Drive.
 
 In the release you will also see 2 videos one is 2103099_detected.mp4 and the other is 2103_detected.mp4. These videos showcase detection results using the trained YOLOv8n model. The differences between them are explained in the corresponding text cells within the Colab notebook.
+
+NOTE: Webcam-based inference was not included in this project as my laptop doesn't have camera.
 ## Dataset
 
 [**Pascal-**](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/)
