@@ -12,9 +12,7 @@ In the release you will also see 2 videos one is 2103099_detected.mp4 and the ot
 [**Pascal-**](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/)
 The Pascal VOC 2012 dataset is a widely used benchmark for object detection, featuring 20 object categories (e.g., person, car, dog). It includes real-world images with XML annotations specifying bounding boxes and class labels.
 
-In this project, the dataset is converted to YOLO format:
-<class_id> <x_center> <y_center> <width> <height> (all normalized).
-This format is used for training and evaluation with YOLO-based models.
+The CNN_YOLOv8n project converts the Pascal VOC 2012 dataset to the YOLO annotation format, required for YOLO-based training and evaluation.
 
 
 
